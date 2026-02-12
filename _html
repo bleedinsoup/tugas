@@ -1,0 +1,102 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Profil Siswa</title>
+    <style>
+        body {
+            background-color: #bca6c7;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #5B4765;
+        }
+
+        .profil {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .profil img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        hr {
+            margin: 15px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #E1D4E8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><i>Website Profil Siswa</i></h1>
+    <hr>
+
+    <div class="profil">
+        <img src="https://image2url.com/r2/default/images/1770892988637-3bd03577-cf26-46c9-81c4-13e769d06954.jpeg">
+
+        <div>
+            <p><strong>Nama:</strong> Grace Azzuhrah Tabriiz Sahroni </p>
+            <p><strong>Kelas:</strong> XI-4</p>
+            <p><strong>Sekolah:</strong> SMAN 5 Cimahi</p>
+            <p><strong>Cita-cita:</strong> Apoteker </p>
+        </div>
+    </div>
+
+    <h2><i>Tentang Saya</i></h2>
+    <p>Saya Grace Azzuhrah Tabriiz Sahroni, siswi XI-4 yang sedang belajar HTML di pelajaran Informatika.</p>
+
+    <h2><i>Media Sosial & Kontak</i></h2>
+    <ul>
+        <li>Instagram: @gracesahroni</li>
+        <li>GitHub: </li>
+        <li>Email: graceazzuhrahtabriizs@gmail.com</li>
+    </ul>
+
+    <h2><i>Riwayat Pendidikan</i></h2>
+    <table>
+        <tr>
+            <th><b><i>No</b></i></th>
+            <th> <b><i> Sekolah </b></i> </th>
+            <th> <b><i> Tahun </b></i> </th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>SD Negeri Karyamulya 1</td>
+            <td>2016 - 2021</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>SMP Negeri 1 Cimahi</td>
+            <td>2021 - 2024</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>SMAN 5 Cimahi</td>
+            <td>2024 - Sekarang</td>
+        </tr>
+    </table>
+
+</body>
+</html>
